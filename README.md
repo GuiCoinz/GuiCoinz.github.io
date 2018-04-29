@@ -1,1 +1,1 @@
-"# GuiCoinz.github.io" 
+# GuiCoinz
