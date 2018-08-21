@@ -32,23 +32,47 @@
         }
         #trfbar{
             position:absolute;
-            bottom:10px;
+            bottom:100px;
+            left: 300px;
+
+        }
+        #countDownTimer{
+            font-size:90px;
+            position:absolute;
+            top: 200px;
+            left: 500px;
+            color:ghostwhite;
+            background-color:black;
+            width: 100px;
+            height:100px;
+            text-align:center;
+            border-radius: 25px;
 
         }
     </style>
     <script>
+        var timeup = 7;
+        window.setInterval(function () {
+            timeup = timeup - 1;
+            if (timeup < 0) { timeup = 0 }
+            // Move to a new location or you can do something else
+            var timer2 = document.getElementById("countDownTimer");
+            timer2.innerHTML = timeup;
+
+        }, 1000);
           window.setTimeout(function(){
 
         // Move to a new location or you can do something else
-              window.location.href = "https://t-adbar.com/_dr9z";
+              window.location.href = "../Coinz4U.html";
 
-    }, 8000);
+    }, 7000);
     </script>
 </head>
 <body>
-    <div id="top">$$$$$ Now heading to Free Botcoin $$$$$$</div>
+    <div id="top">$$$$$ Now heading to Free Bitcoin $$$$$$</div>
     <iframe data-aa='972962' src='//ad.a-ads.com/972962?size=120x600' scrolling='no' style='width:120px; height:600px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
    <iframe id="rightside" data-aa='972965' src='//ad.a-ads.com/972965?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
+    <div id="countDownTimer">7</div>
     <div id="trfbar">
         <script type="text/javascript">
                tc_ad_client = "dburnett3d";
@@ -62,6 +86,7 @@
         </script>
         <script type="text/javascript" src="//trafficadbar.com/bar/show.js"></script>
     </div>
+    
     </br>
 </body>
 </html>
